@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Shopping Mall App</string>
+    <string name="list_of_item">List Of Item</string>
+    <string name="apple_100_rs_kg">Apple 100 Rs/Kg</string>
+    <string name="t_shirt_400_rs_piece">T-Shirt 400 Rs/Piece</string>
+    <string name="bag_500_rs_piece">Bag 500 Rs/Piece</string>
+    <string name="key_rings_100_rs_piece">Key-Rings 100 Rs/Piece</string>
+    <string name="laptop_30_000_rs_laptop">Laptop 30,000 Rs/Laptop</string>
+    <string name="bowl_200_rs_set">Bowl 200 Rs/Set</string>
+    <string name="gst">GST</string>
+    <string name="_6">6%</string>
+    <string name="_12">12%</string>
+    <string name="bill">Bill</string>
+    <string name="shopping_mall_app">Shopping Mall App</string>
+    <string name="total">Total</string>
+    <string name="details">Details</string>
+    <string name="thank_you_n_n_visit_again_n_n">Thank You! \n\n Visit Again :) \n\n ☺☺☺</string>
+    <string name="bill_of_list">List Of Bill</string>
+</resources>

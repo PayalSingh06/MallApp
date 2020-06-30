@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_main"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shopping_mall_app"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_of_item"
+        android:textSize="15sp"
+        android:padding="20dp"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxApple"
+        android:text="@string/apple_100_rs_kg"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxT"
+        android:text="@string/t_shirt_400_rs_piece"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxBag"
+        android:layout_marginTop="10dp"
+        android:text="@string/bag_500_rs_piece"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxRing"
+        android:text="@string/key_rings_100_rs_piece"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxLaptop"
+        android:text="@string/laptop_30_000_rs_laptop"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxBowl"
+        android:layout_marginTop="10dp"
+        android:text="@string/bowl_200_rs_set"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBill"
+        android:text="@string/gst"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:padding="5dp"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chechBoxGst1"
+        android:text="@string/_6"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chechBoxGst2"
+        android:text="@string/_12"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBill"
+        android:layout_marginRight="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="@string/bill"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonReset"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:background="@android:color/primary_text_dark_nodisable"
+        android:text="Reset"/>
+
+</LinearLayout>
